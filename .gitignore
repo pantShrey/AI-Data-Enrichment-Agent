@@ -1,0 +1,21 @@
+# Environment
+.env
+.venv
+*.pyc
+__pycache__/
+# Logs
+*.log
+app/logs/*
+!app/logs/.gitkeep
+
+# Google OAuth
+token.pickle
+*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
